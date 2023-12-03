@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75vh;
+    background-color: #eff4fd;
+}
+
+
+.tengah {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.project{
+    height: 100vh;
+    border-radius: 23px;
+    text-align: justify;
+}
+
+.project h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: 38.3rem;
+    position: relative;
+    bottom: -11rem;
+    color: rgb(41,41,108);
+    font-size: 30px;
+    font-family: helvetica;
+    text-transform: uppercase;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.project span {
+    color: rgb(41,41,108);
+
+}
+
+.images img{
+    border-radius: 23px;
+    border: 2px solid wheat;
+    box-shadow: 0 0 2em wheat;
+
+}
+.gambar1{
+    margin-top: 15rem;
+    display: flex;
+    margin-left: 300px;
+    gap: 23px;
+}
+.images{
+    overflow: hidden;
+}
+
+.layers{
+    background: burlywood;
+    backdrop-filter: blur(10px);
+    height: 220px;
+    width: 300px;
+    position: relative;
+    bottom: 220px;
+    transition: .6s;
+    left: 250px;
+    border-radius: 23px;
+    overflow: hidden;
+    transform: translateX(70px);
+
+}
+.images:hover .layers{
+    transition: .6s ;
+    left: 0;
+}
+
+ button {
+    min-width: 150px;
+    padding: 8px 18px;
+    border: 1px solid rgb(41, 41, 108);
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #2b2a2f;
+    position: relative;
+    left: 250px;
+    top: 25px;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button button a:hover {
+    color: #787cb5;
+    transition: all 0.4s ease-in-out;
+    border-color: #aaabb0;
+}
+
+.button2 button a:hover {
+    color: #787cb5;
+    transition: all 0.4s ease-in-out;
+    border-color: #aaabb0;
+}
+
+.button3 button a:hover {
+    color: #787cb5;
+    transition: all 0.4s ease-in-out;
+    border-color: #aaabb0;
+}
+
+.tombol {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -100px;
+    margin-top: -100px;
+}
